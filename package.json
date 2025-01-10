@@ -1,0 +1,14 @@
+{
+  "name": "test-vercel-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon api/index.js",
+    "start": "node api/index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
